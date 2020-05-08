@@ -21,3 +21,9 @@ Write a NodeJS Script that reads data from a SQL Database of your choice, filter
 
 Please create a GitHub Repo with your final result. I should be able to run your script and produce the required output.
 
+### Helpful Hints
+
+- You can install Mysql in Docker https://hub.docker.com/_/mysql
+- You can also install Mysql on MacOS using https://formulae.brew.sh/formula/mysql
+- You can also install Mysql on Windows https://dev.mysql.com/downloads/installer/
+- If you don't have excel, you can test your output using Google Sheets
