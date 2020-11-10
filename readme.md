@@ -15,7 +15,7 @@ Write a NodeJS Script that reads data from a SQL Database of your choice, filter
  - You *are* allowed to use libraries for this challenge.
  - The final output should match the structure of the `sample-output.xlsx` file. (*Please note that the actual content of the sample-output.xlsx may not match the data given in the data.sql.gz file.*)
  
- - **Please do not spend more than 2 hours on this work. If you exceed 2 hours, just stop and submit what you have and tell us about what you were planning to do given more time.**
+ - **We estimate this task should take about 2 hours, depending on your skill level with the technologies involved. If time is too tight of a constraint, please tell us about what you were planning to do given more time.**
 
 ### Submitting the code challenge
 
