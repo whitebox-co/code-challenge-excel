@@ -1,0 +1,26 @@
+version: '3.3'
+services:
+  node:
+    build: .
+    container_name: node
+    depends_on:
+      - 'mysql'
+    volumes:
+      - ./:/code
+  mysql:
+    image: mysql:latest
+    restart: always
+    container_name: mysql
+    ports:
+      - 3306:3306
+    expose:
+      - 3306
+    volumes:
+      - ./__whitebox__/data.sql.gz/:/docker-entrypoint-initdb.d/data.sql.gz
+    environment:
+      MYSQL_DATABASE: whitebox
+      MYSQL_ALLOW_EMPTY_PASSWORD: ok
+      MYSQL_ROOT_PASSWORD: egnellahc_xobetihw
+      MYSQL_USER: dbuser
+      MYSQL_PASSWORD: resubd
+    command: mysqld --sql_mode=""
