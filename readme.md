@@ -25,6 +25,7 @@ If you are applying for a devops role, the requirements are slightly different:
 4. There should be a readme included explaining the project and how to use it
 5. You may use podman, docker, or any container platform, as long as installation and usage is documented in the readme
 6. The language can be of your choice, node is not a requirement.
+7. The 2 hour estimate is only for the code, the environmental configuration will take somewhat longer.
 
 ### Submitting the code challenge
 
