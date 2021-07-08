@@ -17,6 +17,16 @@ Write a NodeJS Script that reads data from a SQL Database of your choice, filter
  
  - **We estimate this task should take about 2 hours, depending on your skill level with the technologies involved. If time is too tight of a constraint, please tell us about what you were planning to do given more time.**
 
+### Devops Modifications
+If you are applying for a devops role, the requirements are slightly different:
+
+1. The solution **must** run in containers, one for the script, one for the database.
+2. The containers must be configured using docker-compose, kubernetes, or a similar tool of your choice.
+4. There should be a readme included explaining the project and how to use it
+5. You may use podman, docker, or any container platform, as long as installation and usage is documented in the readme
+6. The language can be of your choice, node is not a requirement.
+7. The 2 hour estimate is only for the code, the environmental configuration will take somewhat longer.
+
 ### Submitting the code challenge
 
 Please create a GitHub Repo with your final result. I should be able to run your script and produce the required output.
